@@ -1,0 +1,76 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    text-align: center;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #10c211;
+}
+p {
+    color:#2fab2f;
+}
+caption {
+    text-align: center;
+    color: #10c211;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+table {
+    margin: 25px auto;
+    width: 80%;
+    height: 300px;
+    border-collapse: collapse;
+    background-color: #FEFCF6;
+    color: #0c800e;
+    border: #0c800e;
+    box-shadow: 0 0 5px rgb(9, 255, 0);
+}
+.tfoot tr{
+    background-color: #003400;
+    color: #1c7720;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    border-bottom-width: 2.5px;
+    border-collapse: collapse;
+}
+th {
+    background-color: #003400;
+    color: #12db1c;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    border-bottom-width: 2.5px;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: #001a00;
+}
+tr:nth-child(even){
+    background-color: #012100;
+}
+button {
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 40px;
+    color: #2f6b32;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(9, 255, 0);
+    cursor: pointer;
+}
+a {
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 40px;
+    color: #2f6b32;
+    background-color: black;
+    cursor: pointer;
+}

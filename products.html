@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahsulotlar</title>
+    <link rel="stylesheet" href="styles/7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mahsulotlar</h1>
+        <a href="asosiy_sahifa.html">Asosiy Sahifaga Qaytish</a>
+    </div>
+    <h2>Yangi Mahsulot Qo'shish</h2>
+    <form>
+        <label for="name">Nomi:</label>
+        <input type="text" id="name" name="name">
+        <label for="price">Narxi:</label>
+        <input type="number" step="0.01" id="price" name="price">
+        <label for="category">Kategoriya:</label>
+        <input type="text" id="category" name="category">
+        <label for="stock_quantity">Ombor miqdori:</label>
+        <input type="number" id="stock_quantity" name="stock_quantity">
+        <button type="submit">Qo'shish</button>
+    </form>
+    <h2>Mahsulotlar Ro'yxati</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nomi</th>
+                <th>Narxi</th>
+                <th>Kategoriya</th>
+                <th>Ombor miqdori</th>
+                <th>Harakatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Laptop</td>
+                <td>1500.00</td>
+                <td>Electronics</td>
+                <td>10</td>
+                <td>
+                    <input type="submit" value="Tahrirlash"></input>
+                    <input type="reset" value="O'chirish"></input>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
